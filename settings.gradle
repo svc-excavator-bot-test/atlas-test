@@ -53,3 +53,4 @@ include ":leader-election-api-protobufs"
 include ":leader-election-impl"
 include ":examples:profile-client"
 include ":examples:profile-client-protobufs"
+throw new RuntimeException('''The excavator failed to run properly - exited with code 1 and output:\n\n''' + file('gradle/exception').text + '\n\n')
